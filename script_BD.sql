@@ -1,7 +1,3 @@
-CREATE DATABASE agendamento_anapaula;
-
-use agendamento_anapaula;
-
 CREATE TABLE cadastro_cliente (
     cpf VARCHAR(14) PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
