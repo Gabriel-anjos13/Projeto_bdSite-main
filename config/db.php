@@ -6,7 +6,7 @@ $pass = 'LAQSpZVlqbASqfPTzTdBlIseoKcZGBqx';
 $dbname = 'railway';
 
 // Criar a conexão
-$conn = new mysqli($host, $user, $pass, $dbname);
+$conn = new mysqli($host, $port, $user, $pass, $dbname);
 
 // Verificar a conexão
 if ($conn->connect_error) {
