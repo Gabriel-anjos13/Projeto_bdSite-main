@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
-$user = 'root'; // Usuário padrão no XAMPP
-$pass = 'admin'; // Coloque sua senha do MySQL aqui
-$dbname = 'agendamento_anapaula'; // Nome do banco de dados
+$user = 'root';
+$pass = 'admin';
+$dbname = 'agendamento_anapaula';
 
 // Criar a conexão
 $conn = new mysqli($host, $user, $pass, $dbname);
