@@ -1,8 +1,9 @@
 <?php
-$host = 'localhost';
+$host = 'mysql.railway.internal';
+$port = '3306';
 $user = 'root';
-$pass = 'admin';
-$dbname = 'agendamento_anapaula';
+$pass = 'LAQSpZVlqbASqfPTzTdBlIseoKcZGBqx';
+$dbname = 'railway';
 
 // Criar a conexão
 $conn = new mysqli($host, $user, $pass, $dbname);
