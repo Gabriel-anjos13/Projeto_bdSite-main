@@ -1,6 +1,6 @@
 <?php
-$host = 'sql313.infinityfree.com';
-$user = 'if0_37721113';
+$host = 'Estetica-anapaula.rf.gd';
+$user = 'sv97';
 $pass = 'klkValSFU0fMo';
 $dbname = 'if0_37721113_bd1';
 
