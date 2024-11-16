@@ -93,7 +93,7 @@
 
     <div class="container">
 
-    <h1>Cadastro de Cliente</h1>
+    <h1>Cadastre-se</h1>
     <form action="../actions/register.php" method="POST">
         <label for="cpf">CPF:</label>
         <input type="text" id="cpf" name="cpf" required><br>

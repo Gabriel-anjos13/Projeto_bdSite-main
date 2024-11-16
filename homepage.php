@@ -175,9 +175,9 @@
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
                             <h4 class="mb-4 text-white">Serviços</h4>
-                            <a href="service.html"><i class="fas fa-angle-right me-2"></i> Todos os Serviços</a>
-                            <a href="about.html"><i class="fas fa-angle-right me-2"></i> Sobre Nós </a>
-                            <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contatos</a>
+                            <a href="service.php"><i class="fas fa-angle-right me-2"></i> Todos os Serviços</a>
+                            <a href="about.php"><i class="fas fa-angle-right me-2"></i> Sobre Nós </a>
+                            <a href="contact.php"><i class="fas fa-angle-right me-2"></i> Contatos</a>
                             
                         </div>
                     </div>

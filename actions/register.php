@@ -29,7 +29,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
         $stmt_verifica->close();
 
-        // Atualização para incluir o campo 'email' na tabela cadastro_cliente
         $sql_cliente = "INSERT INTO cadastro_cliente (cpf, nome, telefone, data_nascimento, email) VALUES (?, ?, ?, ?, ?)";
         $stmt_cliente = $conn->prepare($sql_cliente);
         $stmt_cliente->bind_param("sssss", $cpf, $nome, $telefone, $data_nascimento, $email);
